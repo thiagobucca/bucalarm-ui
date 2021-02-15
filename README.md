@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/thiagobucca/bucalarm-ui">
     <img src="images/appIcon.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -22,13 +22,13 @@
 The idea behind this project, is to make a very minimalist security Home Alarm control App.
 Firebase Push integration is used to notify when the Alarm is trigged. Within this app,
 you can activate and deactivate the Alarm. Backend for this example is implemented
-with Python and some small shell scripts. Details here: [Backend](https://reactnative.dev/)
+with Python and some small shell scripts. Details here: [Backend](https://github.com/thiagobucca/bucalarm-api)
 
 
 ### Built With
 
 * [React Native](https://reactnative.dev/)
-
+* [Firebase](https://firebase.google.com/)
 
 ### Running
 
