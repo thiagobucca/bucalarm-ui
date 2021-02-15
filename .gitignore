@@ -301,4 +301,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+ios/GoogleService-Info.plist
+
 # End of https://www.toptal.com/developers/gitignore/api/reactnative

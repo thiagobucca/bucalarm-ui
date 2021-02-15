@@ -1,0 +1,6 @@
+module Pods_bucalarm_bucalarmTests {
+  umbrella header "Pods-bucalarm-bucalarmTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
