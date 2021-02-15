@@ -479,7 +479,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FB23V8674W;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = bucalarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -491,7 +491,7 @@
 				PRODUCT_NAME = bucalarm;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = x86_64;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -505,7 +505,7 @@
 				CODE_SIGN_ENTITLEMENTS = bucalarm/bucalarm.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FB23V8674W;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = bucalarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -516,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buclabs.bucalarm;
 				PRODUCT_NAME = bucalarm;
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = x86_64;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -553,7 +553,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -579,7 +579,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -615,7 +615,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -634,7 +634,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};

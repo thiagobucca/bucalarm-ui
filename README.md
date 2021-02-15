@@ -19,6 +19,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![Product Name Screen Shot][product-screenshot]](https://github.com/thiagobucca/bucalarm-ui)
+
 The idea behind this project, is to make a very minimalist security Home Alarm control App.
 Firebase Push integration is used to notify when the Alarm is trigged. Within this app,
 you can activate and deactivate the Alarm. Backend for this example is implemented
@@ -54,3 +56,5 @@ with Python and some small shell scripts. Details here: [Backend](https://github
 
 Distributed under the GNU License. See `LICENSE` for more information.
 
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: images/screenshot.png
